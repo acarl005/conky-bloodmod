@@ -1,4 +1,4 @@
-Conky Seamod theme
+Conky Bloodmod theme
 ====================
 
 Seamod theme was built by SeaJey. I modified maxiwell's updated version to make it fit with my theme. I also threw in my desktop picture which I made in blender specifically to go with this conky.

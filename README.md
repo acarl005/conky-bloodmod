@@ -1,19 +1,20 @@
 Conky Seamod theme
 ====================
 
-Seamod theme was built by SeaJey. I modified the original theme for conky 1.10 configuration. 
+Seamod theme was built by SeaJey. I modified maxiwell's updated version to make it fit with my theme. I also threw in my desktop picture which I made in blender specifically to go with this conky.
 
-New Features
+Changes:
 --------------
-
-* Disk Read/Write 
-* Lan/Ext IP's
-* City of your IP (useful for VPN) 
+Increased width
+set all orange/green colors to red
+Added title bar to top with manually set text.
+Changed to dual core cpu
+Changed vertical spacing of stuff
 
 Screenshot
 ----------------
-
-![alt text](http://i67.tinypic.com/20qz9xh.png)
+Screenshot with my included desktop picture.
+![alt text](https://github.com/IModThings/conky-bloodmod/blob/master/Screenshot.png?raw=true)
 
 
 Original Theme

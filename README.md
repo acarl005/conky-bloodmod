@@ -22,3 +22,13 @@ It probably won't work on your system without similar mods.
 - Change network graph max value from 100b/s to 5000b/s. There is no obvious max value for this graph, and 5000 is arbitrary.
 - Fix bug where values exceeding the max value overflow the ring. The ring arc is now truncated to the max value.
 
+
+## Installation
+
+Don't expect this to look right without editing the source files.
+
+```sh
+sudo apt install conky-all
+git clone https://github.com/acarl005/conky-seamod.git ~/.config/conky
+conky -d
+```

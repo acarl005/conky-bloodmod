@@ -30,5 +30,6 @@ Don't expect this to look right without editing the source files.
 ```sh
 sudo apt install conky-all
 git clone https://github.com/acarl005/conky-seamod.git ~/.config/conky
+cd ~/.config/conky
 conky -d
 ```

@@ -1,28 +1,24 @@
-Conky Bloodmod theme
+Conky Seamod Fork
 ====================
 
-Seamod theme was built by SeaJey. I modified maxiwell's updated version to make it fit with my theme. I also threw in my desktop picture which I made in blender specifically to go with this conky.
+Seamod theme was built by [SeaJey](https://www.deviantart.com/seajey/art/Conky-Seamod-v0-1-283461046),
+updated by [maxiwell](https://github.com/maxiwell/conky-seamod),
+and modified by [IModThings](https://github.com/IModThings/conky-bloodmod).
+I have modified it to work on my Lenovo U31-70.
+It probably won't work on your system without similar mods.
 
-Changes:
---------------
-Increased width
-set all orange/green colors to red
-Added title bar to top with manually set text.
-Changed to dual core cpu
-Changed vertical spacing of stuff
-
-Screenshot
-----------------
-Screenshot with my included desktop picture.
-![alt text](https://github.com/IModThings/conky-bloodmod/blob/master/Screenshot.png?raw=true)
+![alt text](https://github.com/acarl005/conky-seamod/blob/master/screenshot.png?raw=true)
 
 
-Original Theme
------------------
+## Changes
 
-Click [here](http://www.deviantart.com/art/Conky-Seamod-v0-1-283461046) to see the original theme and screenshots. 
-
-
-
-
+- Change color scheme.
+- Change various offsets, widths, and lengths, b/c they looked all wrong on my system.
+- Use new font format.
+- 4 CPU cores.
+- Edit disk paths.
+- Edit network interface name.
+- Add "text offset" argument for the labels on the rings, allowing more concentric rings to be closely packed together.
+- Change network graph max value from 100b/s to 5000b/s. There is no obvious max value for this graph, and 5000 is arbitrary.
+- Fix bug where values exceeding the max value overflow the ring. The ring arc is now truncated to the max value.
 

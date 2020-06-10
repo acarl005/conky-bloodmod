@@ -21,6 +21,7 @@ It probably won't work on your system without similar mods.
 - Add "text offset" argument for the labels on the rings, allowing more concentric rings to be closely packed together.
 - Change network graph max value from 100b/s to 5000b/s. There is no obvious max value for this graph, and 5000 is arbitrary.
 - Fix bug where values exceeding the max value overflow the ring. The ring arc is now truncated to the max value.
+- Add external IP address and city of the IP.
 
 
 ## Installation

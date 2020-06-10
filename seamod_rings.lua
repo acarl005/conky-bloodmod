@@ -6,10 +6,12 @@
 --  Version : v0.1
 --  License : Distributed under the terms of GNU GPL version 2 or later
 --
---  This version is a modification of lunatico_rings.lua wich is modification of conky_orange.lua 
---
---  conky_orange.lua:    http://gnome-look.org/content/show.php?content=137503&forumpage=0
---  lunatico_rings.lua:  http://gnome-look.org/content/show.php?content=142884
+--  This version is a modification of
+--  seamod_rings.lua:   https://github.com/IModThings/conky-bloodmod/blob/master/seamod_rings.lua
+--  which is modified from
+--  lunatico_rings.lua: http://gnome-look.org/content/show.php?content=142884
+--  which is modified from
+--  conky_orange.lua:   http://gnome-look.org/content/show.php?content=137503&forumpage=0
 --==============================================================================
 
 require 'cairo'

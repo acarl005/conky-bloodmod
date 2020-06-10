@@ -30,6 +30,10 @@ Don't expect this to look right without editing the source files.
 ```sh
 sudo apt install conky-all
 git clone https://github.com/acarl005/conky-seamod.git ~/.config/conky
-cd ~/.config/conky
 conky -d
 ```
+
+Unfortunately, it only works when placed at that specific filepath, because I had to use an absolute path in the `lua_load` command in the Conky config.
+When I was using a relative path, it was relative to the cwd instead of the script.
+Because of this, calling `conky` would only work when calling it inside the folder with the Conky config.
+I wanted to be able to start `conky` from any directory, so I switched to an absolute path.
